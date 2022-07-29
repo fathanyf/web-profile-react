@@ -12,10 +12,10 @@ const Navhead = () => {
           onClick={() => setIsMobile(false)}
           >
             <Link to="/" className="home">
-               <li>Halaman Utama</li>
+               <li>Halaman<br/>Utama</li>
             </Link>
             <Link to="/about" className="about">
-               <li>Pengalaman</li>
+               <li>Pengalaman dan<br/>kemampuan</li>
             </Link>
             <Link to="/blog" className="blog">
                <li>Portofolio</li>
@@ -24,10 +24,10 @@ const Navhead = () => {
                <li>Kontak</li>
             </Link>
             <Link to="/en-home" className="en-home">
-               <li>English (not available) </li>
+               <li>English<br/>(not available) </li>
             </Link>
             <Link to="/cn-home" className="cn-home">
-               <li>中文 （不齐备）</li>
+               <li>中文 <br/>(不齐备)</li>
             </Link>
           </ul>
           <button className="mobile-menu-icon"

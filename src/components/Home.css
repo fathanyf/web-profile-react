@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.section1{
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10%;
+}
+
+.section1 .max-width{
+    width: 150%;
+    display: flex;
+}
+
+.section2{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2 .judul-section2{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 4%;
+}
+
+.section2 .section2-content{
+    margin-top: 2%;
+ display: grid;
+ grid-template-areas: 
+ "gambar konten";
+}
+
+.section2 .section2-content .left{
+    width: 45%;
+    margin-left: 10%;
+}
+
+.section2 .section2-content .foto1{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.section2 .section2-content .right{
+    width: 45%;
+    margin-left: 10%;
+}
+
+.section2 .section2-content .right .text{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+

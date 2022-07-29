@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+li{
+    text-align: center;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +14,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 75px;
+    height: 80px;
     background-color: #002EAC;
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -101,7 +105,7 @@
         position: absolute;
         font-size: 30px;
         color: white;
-        background-color: #00828c;
+        background-color: #002EAC;
         border: none;
         outline: none;
         top: 15px;

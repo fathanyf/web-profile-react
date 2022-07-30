@@ -1,10 +1,7 @@
-li{
-    text-align: justify;
+ul{
+    list-style-type: none;
 }
 
-.judul-pengalaman{
-
-}
 
 /* pengalaman */
 
@@ -16,6 +13,9 @@ li{
     grid-gap: 0.2rem;
 }
 
+.Pengalaman li{
+    text-align: left;
+}
 
 
 .kemampuan{
@@ -26,6 +26,10 @@ li{
     grid-gap: 0.2rem;
 }
 
+.kemampuan li{
+    text-align: left;
+}
+
 
 .sertifikat{
     width: 100%;
@@ -33,5 +37,8 @@ li{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.2rem;
+}
 
+.sertifikat li{
+    text-align: left;
 }

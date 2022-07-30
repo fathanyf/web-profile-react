@@ -44,7 +44,7 @@ const Home = () => {
               <br/>
               Saya memiliki keahlian di bilang frontend web development, administrasi,
               penulisan artikel bidang kelilmuan hubungan internasional, dan kemampuan pengumpulan 
-              dan analisa data dengan metode OSINT (Open Scource Inteligence).
+              dan analisa data dengan metode OSINT (<i>Open-Source Intelligence</i>).
               </p>
           </div>
         </div>

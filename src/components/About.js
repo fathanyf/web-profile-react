@@ -13,12 +13,12 @@ const About = () => {
       <div className="pendidikan">
         <h2 className="judul-pendidikan">Pendidikan</h2>
         <div>
-          <ul>
-            <li><strong>S1 Hubungan Internasional UPNVJ</strong>
+          <ul className="list-pendidikan">
+            <li className="upn"><strong>S1 Hubungan Internasional UPNVJ</strong>
                 <br/>
                 <p>(2017 - 2021)</p>
             </li>
-            <li><strong>SMA Negeri 79 Jakarta</strong>
+            <li className="sma"><strong>SMA Negeri 79 Jakarta</strong>
                 <br/>
                 <p>(2014 - 2017)</p>
             </li>
@@ -73,7 +73,7 @@ const About = () => {
           <li>Microsoft PowerPoint.</li>
           <li>Adobe Photoshop.</li>
           <li>Canva.</li>
-          <li>Pengumpulan dan Analisa Data Metode OSINT<br/>(Open-Source Intelligence)</li>
+          <li>Pengumpulan dan Analisa Data Metode OSINT<br/>(<i>Open-Source Intelligence</i>)</li>
         </ul>
       </div>
 

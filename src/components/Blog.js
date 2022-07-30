@@ -1,4 +1,5 @@
 import React from "react";
+import "./Blog.css"
 
 const Blog = () => {
   return (
@@ -17,8 +18,8 @@ const Blog = () => {
       <div><h2>Karya Ilmiah</h2></div>
       <div>
         <li><a href="https://repository.upnvj.ac.id/12519/">
-          Skripsi:<br/>Analisa Keberhasilan Diplomasi Olahraga 
-          Indonesia untuk Memasukan Paralayang ke dalam Asian Games 2018</a></li>
+          Skripsi:<br/><span className="skripsi">Analisa Keberhasilan Diplomasi Olahraga 
+          Indonesia untuk Memasukan Paralayang ke dalam Asian Games 2018</span></a></li>
       </div>
     </section>
     </>

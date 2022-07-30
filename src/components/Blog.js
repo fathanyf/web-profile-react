@@ -10,6 +10,7 @@ const Blog = () => {
     <section className="porto-web">
       <div><h2>Website</h2></div>
       <div><li><a href="https://www.malanghomestay.com/">Ndaleme Mbahkung Homestay</a></li></div>
+      <div><li><a href="https://binar-ch11.herokuapp.com/">Tugas Challenge 11 Kursus FSW Wave 18 Binar Academy</a></li></div>
     </section>
 
     <section className="porto-tulis">

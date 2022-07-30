@@ -1,15 +1,18 @@
 import React from "react";
+import "./About.css"
 
 const About = () => {
   return (
     <>
-    {/* Pengalaman */}
-    <section className="Pengalaman">
-      <h1>Pengalaman</h1>
+  {/* Pengalaman */}
+    <div className="judul-pengalaman">
+    <h1 className="judul-pengalaman">Pengalaman</h1>
+    </div>
 
-      <div>
-        <h2>Pendidikan</h2>
-        <div className="pendidikan">
+    <section className="Pengalaman">
+      <div className="pendidikan">
+        <h2 className="judul-pendidikan">Pendidikan</h2>
+        <div>
           <ul>
             <li><strong>S1 Hubungan Internasional UPNVJ</strong>
                 <br/>
@@ -23,9 +26,9 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      <div className="pekerjaan">
         <h2>Pengalaman Pekerjaan dan Kegiatan</h2>
-        <div className="pekerjaan">
+        <div>
           <ul>
             <li><strong>Staf Homestay</strong>
                 <br/>
@@ -57,9 +60,11 @@ const About = () => {
     </section>
 
     {/* Kemampuan */}
-    <section className="kemampuan">
-      <h1>Kemampuan</h1>
+    <div className="judul-pengalaman">
+        <h1 className="judul-kemampuan">Kemampuan</h1>
+    </div>
 
+    <section className="kemampuan">
       <div className="hardskill">
         <h2>Hard Skill</h2>
         <ul>
@@ -101,10 +106,35 @@ const About = () => {
           <li>Disiplin waktu.</li>
           <li>Mampu bekerja di bawah tekanan.</li>
           <li>Adaptif.</li>
-          <li>Komunikatif dan mampu bekerjadengan tim.</li>
+          <li>Komunikatif dan mampu bekerja dengan tim.</li>
           <li>Mampu memecahkan masalah.</li>
         </ul>
       </div>
+    </section>
+
+{/* sertifikat */}
+    <div className="judul-pengalaman">
+        <h1 className="judul-sertifikat">Sertifikat Kemampuan</h1>
+    </div>
+
+    <section className="sertifikat">
+        <ul>
+          <li className="list1">
+            <strong>Full Stack Web Development Bootcamp Certification</strong>
+            <br/>
+            Binar Academy
+            <br/>
+            13 Juli 2022
+          </li>
+          <li className="list2">
+            <strong>Teknik Pengumpulan Data dari Jejak Digital</strong>
+            <br/>
+            Anak Teknik Indonesia
+            <br/>
+            15 Agustus 2021
+          </li>
+        </ul>
+
     </section>
     </>
   );

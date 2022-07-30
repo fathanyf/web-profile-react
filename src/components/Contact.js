@@ -1,13 +1,15 @@
 import React from "react";
+import "./Contact.css" 
 
 const Contact = () => {
   return (
     <>
-    <div>
+    <div className="judul-kontak">
       <h1>Kontak</h1>
     </div>
 
-    <section className="kontak-umum">
+  <div className="konten-kontak">
+  <section className="kontak-umum">
       <h2>Kontak Umum</h2>
       <div className="konten-kontak-umum">
           <div class="row">
@@ -64,6 +66,8 @@ const Contact = () => {
           </div>
       </div>
     </section>
+  </div>
+    
     </>
   );
 };

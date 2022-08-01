@@ -3,6 +3,7 @@
 font-family: 'Roboto', sans-serif; */
 ul{
     list-style-type: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* pengalaman */
@@ -15,6 +16,10 @@ ul{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.2fr 0.2fr;
     grid-gap: 0.2rem;
+}
+
+.Pengalaman ul{
+    font-family: 'Roboto', sans-serif;
 }
 
 .Pengalaman li{

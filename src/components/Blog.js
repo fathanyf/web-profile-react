@@ -12,11 +12,11 @@ const Blog = () => {
     <section className="porto-web">
       <div><li><a href="https://www.malanghomestay.com/">Ndaleme Mbahkung Homestay</a>
       <br/>
-      <a href="https://www.malanghomestay.com/"><img src="./foto/web-homestay2.PNG" className="img-porto1"/></a>
+      <a href="https://www.malanghomestay.com/"><img src="./foto/web-homestay2.PNG" alt="porto-homestay" className="img-porto1"/></a>
       </li></div>
       <div><li><a href="https://binar-ch11.herokuapp.com/">Tugas Challenge 11 Kursus FSW Wave 18 Binar Academy</a>
       <br/>
-      <a href="https://binar-ch11.herokuapp.com/"><img src="./foto/web-binar-ch11.PNG" className="img-porto2"/></a>
+      <a href="https://binar-ch11.herokuapp.com/"><img src="./foto/web-binar-ch11.PNG" alt="porto-binar" className="img-porto2"/></a>
       </li></div>
     </section>
 
@@ -25,7 +25,7 @@ const Blog = () => {
       <div>
         <li><a href="https://repository.upnvj.ac.id/12519/">
           Skripsi:<br/><span className="skripsi">Analisa Keberhasilan Diplomasi Olahraga 
-          Indonesia untuk Memasukan Paralayang ke dalam Asian Games 2018</span></a></li>
+          Indonesia untuk Memasukan Paralayang ke dalam Asian Games 2018.</span></a></li>
       </div>
     </section>
     </>

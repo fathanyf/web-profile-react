@@ -1,5 +1,26 @@
+ul{
+
+}
+
 .porto-web li{
     text-align: left;
+    list-style-type: none;
+}
+
+.porto-web{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.2rem;
+}
+
+.img-porto1{
+    height: 300px;
+}
+
+.img-porto2{
+    height: 300px;
 }
 
 .porto-tulis li{

@@ -47,21 +47,21 @@ const Contact = () => {
     </section>
 
     <section className="kontak-sosmed">
-      <h2>Sosial Media</h2>
+      <h2>Media Sosial</h2>
       <div className="konten-kontak-sosmed">
         <div class="row">
                <i class="fab fa-linkedin-in"></i>
               <div class="info">
-                <div class="head">Nama</div>
-                <div class="sub-title">Fathan Yuda Febrianda</div>
+                <div class="head">linkedin</div>
+                <div class="sub-title"><a href="https://www.linkedin.com/in/fathanyf/">Fathan Yuda Febrianda</a></div>
               </div>
           </div>
 
           <div class="row">
               <i class="fab fa-github"></i>
               <div class="info">
-                <div class="head">Nama</div>
-                <div class="sub-title">Fathan Yuda Febrianda</div>
+                <div class="head">Github</div>
+                <div class="sub-title"><a href="https://github.com/fathanyf">fathanyf</a></div>
               </div>
           </div>
       </div>

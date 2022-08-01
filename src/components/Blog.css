@@ -1,5 +1,9 @@
-ul{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
+.judul-porto{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .porto-web li{
@@ -7,11 +11,15 @@ ul{
     list-style-type: none;
 }
 
+.judul-porto-web{
+    font-family: 'Roboto', sans-serif;
+}
+
 .porto-web{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
     grid-gap: 0.2rem;
 }
 
@@ -21,6 +29,10 @@ ul{
 
 .img-porto2{
     height: 300px;
+}
+
+.judul-porto-tulis{
+    font-family: 'Roboto', sans-serif;
 }
 
 .porto-tulis li{

@@ -12,10 +12,18 @@ ul{
 }
 .Pengalaman{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.2fr;
-    grid-gap: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.pendidikan{
+    padding: 10px;
+    flex: 50%;
+}
+
+.pekerjaan{
+    padding: 10px;
+    flex: 50%;
 }
 
 .Pengalaman ul{
@@ -32,10 +40,8 @@ ul{
 
 .kemampuan{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;  
 }
 
 .kemampuan h2{
@@ -46,15 +52,29 @@ ul{
     text-align: left;
 }
 
+.hardskill, .frontend,
+.bahasa, .Softskill{
+    padding: 10px;
+    flex: 50%;
+}
+
 
 .sertifikat{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0.2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 10px;
+    flex: 50%; 
 }
 
 .sertifikat li{
     text-align: left;
 }
+
+@media (max-width: 800px) {
+    .hardskill, .frontend,
+    .bahasa, .Softskill,
+    .pendidikan, .pekerjaan {
+      flex: 100%;
+    }
+  }

@@ -10,7 +10,9 @@ const Blog = () => {
 
     <div><h2 className="judul-porto-web">Website</h2></div>
     <section className="porto-web">
-      <div><li><a href="https://www.malanghomestay.com/">Ndaleme Mbahkung Homestay</a>
+    <div className="flex-container">
+    <div>
+      <li><a href="https://www.malanghomestay.com/">Ndaleme Mbahkung Homestay</a>
       <br/>
       <a href="https://www.malanghomestay.com/"><img src="./foto/web-homestay2.PNG" alt="porto-homestay" className="img-porto1"/></a>
       </li></div>
@@ -18,6 +20,7 @@ const Blog = () => {
       <br/>
       <a href="https://binar-ch11.herokuapp.com/"><img src="./foto/web-binar-ch11.PNG" alt="porto-binar" className="img-porto2"/></a>
       </li></div>
+    </div>
     </section>
 
     <div><h2 className="judul-porto-tulis">Karya Ilmiah</h2></div>

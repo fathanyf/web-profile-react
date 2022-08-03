@@ -8,14 +8,14 @@ font-family: 'Roboto', sans-serif; */
 
 .konten-kontak{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.8fr;
-    grid-gap: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .konten-kontak-umum{
     font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    flex: 50%;
 }
 
 .konten-kontak h2{
@@ -24,4 +24,12 @@ font-family: 'Roboto', sans-serif; */
 
 .konten-kontak-sosmed{
     font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    flex: 50%;
 }
+
+@media (max-width: 800px) {
+    .konten-kontak-umum, .konten-kontak-sosmed {
+      flex: 100%;
+    }
+  }

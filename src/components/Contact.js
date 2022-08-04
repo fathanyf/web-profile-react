@@ -67,6 +67,10 @@ const Contact = () => {
       </div>
     </section>
   </div>
+
+  <div className="buttom  ">
+
+  </div>
     
     </>
   );

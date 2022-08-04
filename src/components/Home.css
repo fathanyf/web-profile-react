@@ -7,6 +7,7 @@
     display: flex;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 10%;
+    z-index: -1000;
 }
 
 .section1 .max-width{
@@ -16,24 +17,24 @@
 
 .section2{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .section2 .judul-section2{
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 4%;
+    
 }
 
 .section2 .section2-content{
     margin-top: 2%;
- display: grid;
- grid-template-areas: 
- "gambar konten";
+    display: flex;
+    flex-wrap: wrap;  
 }
 
-.section2 .section2-content .left{
+.section2 .section2-content .sec2-foto{
     width: 45%;
-    margin-left: 10%;
+    padding: 10px;
+    flex: 50%;
 }
 
 .section2 .section2-content .foto1{
@@ -43,9 +44,11 @@
     border-radius: 6px;
 }
 
-.section2 .section2-content .right{
+.section2 .sec2-text{
     width: 45%;
-    margin-left: 10%;
+
+    padding: 10px;
+    flex: 50%;
 }
 
 .section2 .section2-content .right .text{
@@ -54,6 +57,22 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+
+@media (max-width: 800px) {
+
+    .sec2-foto,.sec2-text{
+         flex: 100%;
+         margin-left: 5%;
+    }    
+
+    .section2 {
+        margin-top: -50%;
+    }
+
+    .section2 .section2-content .foto1 {
+      width: 100%;
+    }
+  }
 
 
 

@@ -28,6 +28,10 @@ font-family: 'Roboto', sans-serif; */
     flex: 50%;
 }
 
+.buttom{
+    padding-bottom: 13%;
+}
+
 @media (max-width: 800px) {
     .konten-kontak-umum, .konten-kontak-sosmed {
       flex: 100%;

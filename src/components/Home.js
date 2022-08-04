@@ -28,10 +28,10 @@ const Home = () => {
       <div>
         <h2 className="judul-section2">Tentang Saya</h2>
         <div className="section2-content">
-          <div className="column left">
+          <div className="sec2-foto">
             <img src="./foto/fotonanda1.PNG" className="foto1"/>
           </div>
-          <div className="column right">
+          <div className="sec2-text">
             <p className="text">
               Saya Saya Fathan Yuda Febrianda dan bisa dipanggil dengan Fathan. 
               Saya adalah lulusan S1 Hubungan Internasional UPNVJ dengan predikat 

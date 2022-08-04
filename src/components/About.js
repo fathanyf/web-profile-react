@@ -93,8 +93,8 @@ const About = () => {
         <h2>Bahasa</h2>
         <ul>
           <li>Bahasa Indonesia.</li>
-          <li>Bahasa Inggris.</li>
           <li>Bahasa Malaysia.</li>
+          <li>Bahasa Inggris (TOEFL ITP: 533).</li>
           <li>Bahasa Mandarin (Pemula).</li>
         </ul>
       </div>

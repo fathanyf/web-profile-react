@@ -17,11 +17,14 @@ font-family: 'Roboto', sans-serif; */
 
 .porto-web{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.2fr;
-    grid-gap: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
+}
+
+.portoweb1, .portoweb2{
+    padding: 10px;
+    flex: 50%;
 }
 
 .img-porto1{
@@ -30,6 +33,10 @@ font-family: 'Roboto', sans-serif; */
 
 .img-porto2{
     height: 300px;
+}
+
+.porto1-mobile{
+    display: none;
 }
 
 .judul-porto-tulis{
@@ -44,3 +51,12 @@ font-family: 'Roboto', sans-serif; */
 .skripsi{
     margin-left: 1.5%;
 }
+
+@media (max-width: 800px) {
+    .portoweb1, .portoweb2 {
+      flex: 100%;
+    }
+    .img-porto1, .img-porto2{
+        width: 100%;
+    }
+  }

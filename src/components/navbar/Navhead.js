@@ -23,12 +23,12 @@ const Navhead = () => {
             <Link to="/contact" className="contact">
                <li>Kontak</li>
             </Link>
-            <Link to="/en-home" className="en-home">
+            {/* <Link to="/en-home" className="en-home">
                <li>English<br/>(not available) </li>
             </Link>
             <Link to="/cn-home" className="cn-home">
                <li>中文 <br/>(不齐备)</li>
-            </Link>
+            </Link> */}
           </ul>
           <button className="mobile-menu-icon"
           onClick={() => setIsMobile(!isMobile)}

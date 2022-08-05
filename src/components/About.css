@@ -2,7 +2,7 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif; */
 ul{
-    list-style-type: none;
+    /* list-style-type: none; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,6 +14,16 @@ ul{
     width: 100%;
     display: flex;
     flex-wrap: wrap;    
+}
+
+.Pengalaman, .hardskill li{
+    margin-left: 2%;
+}
+
+
+
+.bahasa li {
+    margin-left: 2%;
 }
 
 .pendidikan{
@@ -69,6 +79,16 @@ ul{
 
 .sertifikat li{
     text-align: left;
+    margin-left: 2%;
+    list-style: none;
+}
+
+.img-sert2{
+    border: 2px solid black;
+}
+
+.date-text{
+    margin-top: -3%;
 }
 
 @media (max-width: 800px) {
@@ -76,5 +96,9 @@ ul{
     .bahasa, .Softskill,
     .pendidikan, .pekerjaan {
       flex: 100%;
+    }
+
+    .frontend, .Softskill{
+        margin-left: 2%;
     }
   }

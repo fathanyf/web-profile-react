@@ -33,7 +33,7 @@ const Home = () => {
           </div>
           <div className="sec2-text">
             <p className="text">
-              Saya Saya Fathan Yuda Febrianda dan bisa dipanggil dengan Fathan. 
+              Saya Saya Fathan Yuda Febrianda dan biasa dipanggil dengan Fathan. 
               Saya adalah lulusan S1 Hubungan Internasional UPNVJ dengan predikat 
               Cum Laude yang bernilai IPK 3.79/4.00. 
               <br/>

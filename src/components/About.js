@@ -78,7 +78,7 @@ const About = () => {
       </div>
 
       <div className="frontend">
-        <h2>Front-end Web Development</h2>
+        <h2 className="judul-frontend">Front-end Web Development</h2>
         <ul>
           <li>HTML.</li>
           <li>CSS.</li>
@@ -118,22 +118,25 @@ const About = () => {
     </div>
 
     <section className="sertifikat">
-        <ul>
-          <li className="list1">
-            <strong>Full Stack Web Development Bootcamp Certification</strong>
-            <br/>
-            Binar Academy
-            <br/>
-            13 Juli 2022
-          </li>
-          <li className="list2">
-            <strong>Teknik Pengumpulan Data dari Jejak Digital</strong>
-            <br/>
-            Anak Teknik Indonesia
-            <br/>
-            15 Agustus 2021
-          </li>
-        </ul>
+
+    <div className="portoweb1">
+        <li><strong>Full Stack Web Development Bootcamp Certification</strong>
+        <br/>
+        <p><strong>Binar Academy</strong></p>
+        <br/>
+        <p className="date-text">13 Juli 2022</p>
+        <img src="./foto/binar-sertifikat.PNG" alt="porto-homestay" className="img-porto1"/>
+        </li>
+      </div>
+      <div className="portoweb2">
+      <li><strong>Full Stack Web Development Bootcamp Certification</strong>
+        <br/>
+        <p><strong>Binar Academy</strong></p>
+        <br/>
+        <p className="date-text">15 Agustus 2021</p>
+        <img src="./foto/osint-web.png" alt="porto-homestay" className="img-porto1"/>
+        </li>
+      </div>
 
     </section>
     </>
